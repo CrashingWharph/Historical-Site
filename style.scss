@@ -1,0 +1,56 @@
+// index page
+@use './styles/homepage/carousel.scss';
+@use './styles/homepage/gallery.scss';
+@use './styles/homepage/mini_catagory.scss';
+
+// topic & content 
+    @use './styles/catagory/accordian.scss';
+    @use './styles/catagory/content.scss';
+    @use './styles/catagory/topic.scss';
+    @use './styles/catagory/catagory.scss';
+
+// all pages
+   @use './styles/all-pages/header.scss';
+   @use './styles/all-pages/buttons.scss';
+   @use './styles/all-pages/images.scss';
+   @use './styles/all-pages/footer.scss';
+   @use './styles/all-pages/font.scss';
+   @use './styles/all-pages/email-board.scss';
+
+   @use './styles/banner.scss';
+
+//    sass --watch styles/index.scss css/index.css
+//    sass --watch styles/style.scss css/style.css
+
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    // font-family: 'poppins', sans-serif;
+}
+
+body {
+    max-height: 100%;
+    position: relative;
+}
+
+// home page 
+.home-container {
+    height: 350vh;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    align-items: center;
+}
+
+// content page 
+.content-container {
+    height: 270vh;
+    position: relative;
+    // background: rgba(232, 231, 231, 0.2);
+}
+
+
+// styles/index.scss to css/index.css.
+
